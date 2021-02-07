@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = "http://18.224.200.47";
+const url = "http://localhost:3000";
 
 const getProductList = () => {
   return axios.get(`${url}/products`);
